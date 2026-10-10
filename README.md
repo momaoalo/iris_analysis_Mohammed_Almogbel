@@ -20,7 +20,7 @@ iris-analysis/
 ├── data/
 │   └── iris.csv                  # dataset (downloaded with curl)
 ├── output/
-│   ├── species_summary.csv       # mean of each measurement per species
+│   ├── species_summary.csv       # summary statistics per species
 │   ├── filtered_iris.csv         # flowers with sepal_length > 6
 │   └── species_means.png         # bar chart saved from the notebook
 ├── iris_analysis.ipynb           # full analysis (Tasks 3-6 + plots)
@@ -78,7 +78,7 @@ Then run all cells (Kernel > Restart & Run All).
 
 ## Output files
 
-- `output/species_summary.csv`: mean of each numeric column per species
+- `output/species_summary.csv`: summary statistics (count, mean, std, min, quartiles, max) per species
 - `output/filtered_iris.csv`: all flowers with `sepal_length > 6`
 - `output/species_means.png`: bar chart of mean measurements per species
- ![Mean measurements by species](output/species_means.png)
+![Mean measurements by species](output/species_means.png)

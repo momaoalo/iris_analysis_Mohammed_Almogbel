@@ -1,7 +1,7 @@
 [project]
 name = "iris-analysis"
 version = "0.1.0"
-description = "Add your description here"
+description = "Iris dataset analysis with uv, pandas and Jupyter Notebook"
 readme = "README.md"
 authors = [
     { name = "Mohammed Ahmed Almogbel", email = "mohammed.almogbel2@gmail.com" }
@@ -12,9 +12,6 @@ dependencies = [
     "notebook>=7.6.3",
     "pandas>=3.0.6",
 ]
-
-[project.scripts]
-iris-analysis = "iris_analysis:main"
 
 [build-system]
 requires = ["uv_build>=0.12.23,<0.13.0"]
